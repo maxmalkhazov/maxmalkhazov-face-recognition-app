@@ -1,0 +1,103 @@
+.form--header {
+	font-size: 2rem;
+}
+
+.form--main {
+	text-align: center;
+	width: 400px;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+	background: none;
+}
+
+.form--username,
+.form--email,
+.form--password {
+	width: 250px;
+	font-size: 1.3rem;
+	margin: 10px auto 20px auto;
+	display: block;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border: 2px solid rgba(0, 0, 0, .7);
+}
+
+.form--username:focus,
+.form--email:focus,
+.form--password:focus {
+	color: #fff;
+	outline-style: none;
+	box-shadow: none;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+input {
+	font-weight: 100;
+}
+
+label {
+	font-size: 1.3rem;
+}
+
+.form--submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	border: 2px solid rgba(0, 0, 0, .7);
+	outline: 0;
+	color: #fff;
+	padding: .5rem .8rem;
+	font-size: 1.2rem;
+	background-color: #8F3BAD;
+	transition: all .4s ease-out;
+}
+
+.form--submit:hover {
+	transform: scale(1.05);
+	background-color: #7a3294;
+}
+
+.form--submit:active {
+	transform: scale(.9);
+}
+
+.form--register {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	transition: all .3s ease-out;
+}
+
+.form--register:hover {
+	color: #8F3BAD;
+	transform: scale(1.1);
+}
+
+.form--register:active {
+	color: #7a3294;
+}
+
+@media screen and (max-width: 767px) {
+	.form--main {
+		text-align: center;
+		width: 250px;
+		padding: 20px;
+		border: 1px solid rgba(0, 0, 0, .2);
+		box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+		background: none;
+	}
+
+	.form--username,
+	.form--email,
+	.form--password {
+		width: 150px;
+		font-size: 1rem;
+		margin: 10px auto 20px auto;
+		display: block;
+		background-color: rgba(0, 0, 0, 0);
+		border-style: solid;
+		border: 2px solid rgba(0, 0, 0, .7);
+	}
+}

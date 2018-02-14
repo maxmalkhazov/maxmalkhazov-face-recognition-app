@@ -1,0 +1,42 @@
+.footer--main {
+    position: fixed;
+	z-index: 5;
+	background-color: rgba(255, 255, 255, .9);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: scale(1.2);
+	transition: all .3s ease-out;
+}
+
+.footer--text {
+	color: rgba(0, 0, 0, .9) ;
+	font-size: 1.5rem;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.footer--github {
+	color: rgba(0, 0, 0, .9);
+	font-size: 2.4rem;
+	display: block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 15px;
+}
+
+.modal--btn {
+    color: rgba(0, 0, 0, .9);
+	font-size: 1.8rem;
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}

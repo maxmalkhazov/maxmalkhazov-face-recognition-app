@@ -1,0 +1,21 @@
+.logo--main {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.logo {
+	border: 1px solid rgba(0, 0, 0, .2);
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+	background: linear-gradient(to right, #b993d6, #8ca6db);
+	width: 200px;
+}
+
+.logo--inner {
+	padding: 3px;
+}
+
+.logobot {
+	padding-top: 40px;
+}

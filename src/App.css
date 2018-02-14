@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.App-center {
+    display: flex;
+    justify-content: center;
+}
+
+.App-particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main--modal-btn {
+	font-size: 2rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-top: 0;
+	cursor: pointer;
+	transition: all .3s ease-out;
+}
+
+.main--modal-btn:hover {
+	color: #8F3BAD;
+	transform: rotate(90deg) scale(.9);
+	
+}

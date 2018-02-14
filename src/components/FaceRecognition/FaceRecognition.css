@@ -1,0 +1,21 @@
+.face--box {
+	margin-top: 20px;
+}
+
+.face--main {
+	position: absolute;
+}
+
+.face--image {
+	max-width: 500px;
+	height: auto;
+}
+
+.bounding-box {
+	position: absolute;
+	box-shadow: 0 0 0 3px #8F3BAD inset;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+}

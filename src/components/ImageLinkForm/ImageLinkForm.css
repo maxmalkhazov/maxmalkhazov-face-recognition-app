@@ -1,0 +1,48 @@
+
+
+.form {
+	width: 500px;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+	background: linear-gradient(to left, #b993d6, #8ca6db);
+}
+
+.input--box {
+	width: 70%;
+	display: inline;
+	font-size: 1.4rem;
+}
+
+.detect--btn {
+	width: 30%;
+	display: inline;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	font-size: 1.2rem;
+	background-color: #8F3BAD;
+	transition: all .4s ease-out;
+}
+
+.detect--btn:hover {
+	transform: scale(1.05);
+	background-color: #7a3294;
+}
+
+.detect--btn:active {
+	transform: scale(.9);
+}
+
+@media screen and (max-width: 767px) {
+	.form {
+		width: 300px;
+		padding: 20px;
+	}
+
+	.input--box {
+		width: 70%;
+		display: inline;
+		font-size: 1.2rem;
+	}
+}

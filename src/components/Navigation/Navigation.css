@@ -1,0 +1,23 @@
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav--sign-out {
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 15px;
+	margin-left: 10px;
+	cursor: pointer;
+	padding-bottom: 5px;
+	transition: all .3s ease-out;
+}
+
+.nav--sign-out:hover {
+	color: #8F3BAD;
+	border-bottom: 1px solid #8F3BAD;
+}
+
+.nav--sign-out:active {
+	color: #7a3294
+}

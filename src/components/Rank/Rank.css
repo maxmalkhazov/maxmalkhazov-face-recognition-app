@@ -1,0 +1,43 @@
+.rank--main {
+
+}
+
+.rank--intro {
+	margin-bottom: 20px;
+	font-size: 1.4rem;
+	margin-top: 30px;
+}
+
+.rank--text {
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.rank--position {
+	font-size: 1.6rem;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	.rank--intro {
+		margin-bottom: 20px;
+		font-size: 1.2rem;
+		margin-top: 30px;
+	}
+
+	.rank--text {
+		font-weight: 300;
+		font-size: 1.3rem;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+
+	.rank--position {
+		font-size: 1.3rem;
+		color: #fff;
+		margin-bottom: 20px;
+	}
+}
