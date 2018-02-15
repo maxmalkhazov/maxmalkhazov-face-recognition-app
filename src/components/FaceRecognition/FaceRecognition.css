@@ -7,8 +7,10 @@
 }
 
 .face--image {
+	width: 100%;
 	max-width: 500px;
 	height: auto;
+	overflow-x: none;
 }
 
 .bounding-box {
