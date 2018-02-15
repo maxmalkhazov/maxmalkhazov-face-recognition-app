@@ -1,4 +1,4 @@
-.footer--main {
+.modal--main {
     position: fixed;
 	z-index: 5;
 	background-color: rgba(255, 255, 255, .9);
@@ -10,7 +10,7 @@
 	transition: all .3s ease-out;
 }
 
-.footer--text {
+.modal--text {
 	color: rgba(0, 0, 0, .9) ;
 	font-size: 1.5rem;
 	position: absolute;
@@ -19,7 +19,7 @@
 	transform: translateY(-50%);
 }
 
-.footer--github {
+.modal--github {
 	color: rgba(0, 0, 0, .9);
 	font-size: 2.4rem;
 	display: block;
@@ -39,4 +39,10 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	.modal--text {
+		font-size: 1.2rem;
+	}
 }

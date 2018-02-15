@@ -7,7 +7,7 @@ import Rank from "./components/Rank/Rank";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Signin from "./components/Signin/Signin";
 import Register from "./components/Register/Register";
-import Footer from "./components/Footer/Footer";
+import Modal from "./components/Modal/Modal";
 import FaBars from "react-icons/lib/fa/bars";
 
 import './App.css';
@@ -156,7 +156,7 @@ class App extends Component {
                 {this.state.isModalOpen === false
                 ? <p className="main--modal-btn" onClick={this.openModal}><FaBars /></p>
                 :
-                   <Footer isModalOpen={isModalOpen} closeModal={this.closeModal} />
+                   <Modal isModalOpen={isModalOpen} closeModal={this.closeModal} />
                 }
                 { route === "home"
                 ? <div>
