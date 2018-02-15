@@ -24,7 +24,10 @@
 	.face--image {
 		width: 500px;
 		max-width: 100%;
-		left: 0;
-		right: 0;
+	}
+	
+	.face--main {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
