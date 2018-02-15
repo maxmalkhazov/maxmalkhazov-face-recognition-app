@@ -9,9 +9,6 @@
 .face--image {
 	max-width: 500px;
 	height: auto;
-	overflow-x: none;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .bounding-box {
@@ -21,4 +18,11 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	.face--image {
+		width: 500px;
+		max-width: 100%;
+	}
 }
