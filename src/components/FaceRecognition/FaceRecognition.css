@@ -24,9 +24,7 @@
 	.face--image {
 		width: 500px;
 		max-width: 100%;
-		display: flex;
-	    flex-wrap: wrap;
-	    justify-content: center;
-		
+		padding-left: auto;
+		padding-right: auto;
 	}
 }
