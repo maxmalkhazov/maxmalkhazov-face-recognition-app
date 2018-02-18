@@ -14,10 +14,10 @@ nav {
 }
 
 .nav--sign-out:hover {
-	color: #8F3BAD;
-	border-bottom: 1px solid #8F3BAD;
+	color: #7e57c2;
+	border-bottom: 1px solid #7e57c2;
 }
 
 .nav--sign-out:active {
-	color: #7a3294
+	color: #643da9
 }

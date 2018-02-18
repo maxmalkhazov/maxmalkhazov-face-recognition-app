@@ -50,13 +50,13 @@ label {
 	color: #fff;
 	padding: .5rem .8rem;
 	font-size: 1.2rem;
-	background-color: #8F3BAD;
+	background-color: #7e57c2;
 	transition: all .4s ease-out;
 }
 
 .form--submit:hover {
 	transform: scale(1.05);
-	background-color: #7a3294;
+	background-color: #643da9;
 }
 
 .form--submit:active {
@@ -71,12 +71,12 @@ label {
 }
 
 .form--register:hover {
-	color: #8F3BAD;
+	color: #7e57c2;
 	transform: scale(1.1);
 }
 
 .form--register:active {
-	color: #7a3294;
+	color: #643da9;
 }
 
 @media screen and (max-width: 767px) {
