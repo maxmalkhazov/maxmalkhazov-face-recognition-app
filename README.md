@@ -1,3 +1,18 @@
+# Face Recognition App
+
+*Using a machine learning API, this app detects human faces in the image uploaded by the user.*
+
+## Usage
+
+The Predict API returns probability scores on the likelihood that the media contains human faces. If human faces are detected, the model will also return the coordinate locations of those faces with a bounding box.
+
+The returned ‘bounding_box’ values are the coordinates of the box outlining each face within the image. They are specified as float values between 0 and 1, relative to the image size; the top-left coordinate of the image is (0.0, 0.0), and the bottom-right of the image is (1.0, 1.0). If the original image size is (500 width, 333 height), then the box above corresponds to the box with top-left corner at (208 x, 83 y) and bottom-right corner at (175 x, 139 y). Note that if the image is rescaled (by the same amount in x and y), then box coordinates remain the same. To convert back to pixel values, multiply by the image size, width (for “left_col” and “right_col”) and height (for “top_row” and “bottom_row”).
+
+You can find more info here: https://clarifai.com/models/face-detection-image-recognition-model-a403429f2ddf4b49b307e318f00e528b-detection
+
+## Built With
+ JavaScript, CSS3, React, NPM, Node.js, Express.js, PostgreSQL.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
